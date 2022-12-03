@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+">
+
+	<context:annotation-config />
+	<bean id="emp1" class="com.example1.Employee">
+		<property name="empID" value="20408569" />
+		<property name="empName" value="Bhavana" />
+		<property name="empBand" value="B1" />
+	</bean>
+	
+	<bean id="emp4" class="com.example4.Employee">
+		<property name="empID" value="448" />
+		<property name="name" value="Raji"/>
+	</bean>
+	<bean id="adr4" class="com.example4.Address" >
+		<property name="street" value="ganesh chowk"/>
+	</bean>
+	
+	
+</beans>
